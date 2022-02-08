@@ -31,7 +31,7 @@ def image_mars():
                         <link rel="stylesheet" type="text/css"/>
                       </head>
                       <body>
-                        <h1>Привет, Марс!</h1>
+                        <h1 class="im_mar">Привет, Марс!</h1>
                         <div>
                           <img src="{url_for('static', filename='img/mars_image.png')}" width='136' height='136'>
                           <p>Жди нас, Марс!</p>
